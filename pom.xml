@@ -8,7 +8,7 @@
   <name>property</name>
 
   <modules>
-    <module>commons-ejb</module>
+    <module>dep1</module>
     <module>property-ejb</module>
     <module>property-web</module>
     <module>property-ear</module>

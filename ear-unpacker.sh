@@ -10,7 +10,12 @@ do
 done
 ls *ar | xargs rm 
 
-ls lib/
+echo ">>>>>>>>>>>>>>>>>>"
+find . -name "*.jar"
 
-echo "MANIFEST..."
-cat *web*/META-INF/MANIFEST.MF
+find . -name "*.MF" -print |while read file
+do
+    echo "**********"
+    echo $file
+    cat $file
+done
