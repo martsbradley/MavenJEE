@@ -9,6 +9,8 @@
 
   <modules>
     <module>dep1</module>
+    <module>dep2</module>
+    <module>dep3</module>
     <module>property-ejb</module>
     <module>property-web</module>
     <module>property-ear</module>
